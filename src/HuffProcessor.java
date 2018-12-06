@@ -40,8 +40,8 @@ public class HuffProcessor {
 	 * @param out
 	 *            Buffered bit stream writing to the output file.
 	 */
-//	public void compress(BitInputStream in, BitOutputStream out){
-//
+	public void compress(BitInputStream in, BitOutputStream out){
+			return; }
 //		int[] counts = readForCounts(in);
 //		HuffNode root = makeTreeFromCounts(counts);
 //		String[] codings = makeCodingsFromTree(root);
